@@ -1,10 +1,6 @@
 🎓 University Management System (Console-Based)
 
 A modular University Management System built using Python that supports multi-college management with secure OTP authentication, structured validation, activity logging, and persistent file storage.
-
-🔗 GitHub Repository:
-https://github.com/sagarkadiripogu/university-management-system
-
 ⸻
 
 🚀 Project Overview
