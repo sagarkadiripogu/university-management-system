@@ -59,5 +59,3 @@ The project is designed with modular architecture and follows structured backend
 - Time module
 
 ---
-
-## 📂 Project Structure
