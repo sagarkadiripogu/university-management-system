@@ -94,7 +94,7 @@ The project is designed with modular architecture and follows structured backend
 👨‍💻 Author
 
 Sagar Kadiripogu
-Aspiring Backend Developer | Python Enthusiast
+Aspiring FullStack Developer | Python Enthusiast
 
 ⸻
 
