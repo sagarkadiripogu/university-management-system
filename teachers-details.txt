@@ -1,0 +1,8 @@
+====> Teachers Details of VRSEC
+-----------------------------------------------------------
+|-> Teacher Roll number   : 1001
+|-> Teacher Name          : Sai Vardhan
+|-> Teacher Mobile        : 9876543210
+|-> Teacher Email         : mbghunter6@gmail.com
+|-> Teacher Data of Birth : 09-02-1990
+|-> Teacher Subject        : Python

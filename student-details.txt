@@ -1,0 +1,15 @@
+====> Students Details of VRSEC
+-----------------------------------------------------------
+|-> Student Roll number   : 101
+|-> Student Name          : K.Sagar
+|-> Student Mobile        : 8341424890
+|-> Student Email         : mbghunter6@gmail.com
+|-> Student Data of Birth : 09-02-2003
+|-> Student Branch        : CSE
+-----------------------------------------------------------
+|-> Student Roll number   : 102
+|-> Student Name          : K.Jayakrishna
+|-> Student Mobile        : 9876543210
+|-> Student Email         : mbghunter6@gmail.com
+|-> Student Data of Birth : 09-02-2003
+|-> Student Branch        : CSE
