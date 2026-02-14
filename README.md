@@ -57,7 +57,6 @@ The project is designed with modular architecture and follows structured backend
 - Modular Project Structure
 - Error Handling & Control Flow
 - Time module
-- 
 
 ---
 
