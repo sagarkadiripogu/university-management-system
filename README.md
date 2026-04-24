@@ -47,7 +47,6 @@ The system focuses on **data integrity, validation, and basic backend logic** ra
 * Python
 * MySQL
 * PyMySQL
-* Tkinter (basic GUI prototype) 
 * Logging module
 
 ---
@@ -60,7 +59,6 @@ The system focuses on **data integrity, validation, and basic backend logic** ra
 * `email_verification_teacher.py` → Teacher OTP verification
 * `greeting.py` → Welcome message
 * `end_greeting.py` → Exit message
-* `gui.py` → Basic GUI implementation
 * `student-details.txt` → Stored student data
 * `teachers-details.txt` → Stored teacher data
 * `smslog.log` → Application logs
@@ -113,7 +111,6 @@ python main_1.py
 * Logging & Debugging
 * File Handling
 * Email Automation (SMTP)
-* Basic GUI (Tkinter)
 
 ---
 
