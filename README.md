@@ -1,113 +1,134 @@
-🎓 University Management System (Console-Based)
+# 🎓 University Management System (Python + MySQL)
 
-A modular University Management System built using Python that supports multi-college management with secure OTP authentication, structured validation, activity logging, and persistent file storage.
-⸻
+## Overview
 
-🚀 Project Overview
+This project is a console-based **University Management System** built using Python and MySQL. It allows managing colleges, students, and teachers with proper validation, logging, and file storage features.
 
-This system allows administrators to manage multiple colleges, register students and teachers, and securely verify users using an email-based OTP authentication system.
+The system focuses on **data integrity, validation, and basic backend logic** rather than UI complexity.
 
-The project is designed with modular architecture and follows structured backend workflow principles.
+---
 
-⸻
+## 🚀 Features
 
-🔐 Key Features
+### 🏫 College Management
 
-🏫 Multi-College Support
-	•	Create and manage multiple colleges
-	•	Isolated data handling per college
+* Create new colleges with unique IDs
+* Prevent duplicate college entries
 
-👨‍🎓 Student Management
-	•	Add student with validation
-	•	Unique roll number check
-	•	Email OTP verification (with expiry & retry limits)
-	•	Store student details to file
+### 👨‍🎓 Student Management
 
-👨‍🏫 Teacher Management
-	•	Add teacher with validation
-	•	Secure email verification
-	•	Subject allocation
-	•	Store teacher details to file
+* Add students under a specific college
+* Input validation using Regular Expressions
+* Email verification using OTP system 
+* Store student details into file 
 
-🔑 Secure OTP Authentication
-	•	Email-based OTP verification
-	•	OTP expiry mechanism
-	•	Limited retry attempts
-	•	Resend OTP functionality
+### 👨‍🏫 Teacher Management
 
-📝 Activity Logging
-	•	Logs INFO, WARNING, and ERROR events
-	•	Tracks user actions
-	•	Simulates production-style monitoring
+* Add teachers linked to a college
+* Email verification system 
+* Store teacher details into file 
 
-💾 Persistent File Storage
-	•	Student details stored in student-details.txt
-	•	Teacher details stored in teachers-details.txt
-	•	Logs stored in smslog.txt
+### 🕒 Time Restriction
 
-⸻
+* System runs only during working hours (8 AM – 10 PM) 
 
-🧠 Technical Concepts Used
-	•	Python OOP (Classes & Objects)
-	•	Input Validation
-	•	Email SMTP Integration
-	•	Logging Module
-	•	File Handling
-	•	Modular Project Structure
-	•	Error Handling & Control Flow
+### 📄 Logging System
 
-⸻
+* Tracks all user actions, errors, and system events 
 
-📂 Project Structure
-  main_1.py
-  email_verification_student.py
-  email_verification_teacher.py
-  greeting.py
-  end_greeting.py
-  checktime.py
-  student-details.txt
-  teachers-details.txt
-  smslog.txt
-⸻
+### 💾 File Storage
 
-▶️ How To Run
+* Export student and teacher data into text files
 
-1️⃣ Clone the repository:
-      git clone https://github.com/sagarkadiripogu/university-management-system.git
-2️⃣ Navigate to project folder:
-      cd university-management-system
-3️⃣ Run the main file:
-      python main_1.py
+---
 
-⸻
+## 🛠️ Tech Stack
 
-🔮 Future Improvements
-	•	Database integration (SQLite / MySQL)
-	•	Role-based login dashboards
-	•	Attendance management system
-	•	Marks & grade calculation
-	•	Flask-based web version
-	•	JWT-based authentication
+* Python
+* MySQL
+* PyMySQL
+* Tkinter (basic GUI prototype) 
+* Logging module
 
-⸻
+---
 
-👨‍💻 Author
+## 📂 Project Structure
 
-Sagar Kadiripogu
-Aspiring FullStack Developer | Python Enthusiast
+* `main_1.py` → Core application logic 
+* `checktime.py` → Time restriction module
+* `email_verification_student.py` → Student OTP verification
+* `email_verification_teacher.py` → Teacher OTP verification
+* `greeting.py` → Welcome message
+* `end_greeting.py` → Exit message
+* `gui.py` → Basic GUI implementation
+* `student-details.txt` → Stored student data
+* `teachers-details.txt` → Stored teacher data
+* `smslog.log` → Application logs
 
-⸻
+---
 
-⭐ Support
+## ⚙️ How to Run
 
-If you like this project, feel free to star the repository ⭐
+1. Install dependencies:
 
-⸻
+```bash
+pip install pymysql
+```
 
-🔥 Now your GitHub looks:
-	•	Clean
-	•	Structured
-	•	Professional
-	•	Recruiter-ready
+2. Setup MySQL database:
+
+* Create database: `ums`
+* Create tables: `colleges`, `students`, `teachers`
+
+3. Run the main file:
+
+```bash
+python main_1.py
+```
+
+---
+
+## 📌 Sample Output
+
+### Student File Output
 
 
+
+---
+
+## ⚠️ Limitations
+
+* Console-based interaction (no full UI)
+* Hardcoded email credentials (not secure)
+* Basic error handling (can be improved)
+* No ORM or modular architecture
+
+---
+
+## 🧠 Key Concepts Used
+
+* Database Connectivity (PyMySQL)
+* CRUD Operations
+* Input Validation (Regex)
+* Logging & Debugging
+* File Handling
+* Email Automation (SMTP)
+* Basic GUI (Tkinter)
+
+---
+
+## 📈 Future Improvements
+
+* Convert to full GUI or Web App
+* Use environment variables for security
+* Implement proper MVC structure
+* Add authentication system
+* Use ORM (SQLAlchemy/Django ORM)
+
+---
+
+## 👨‍💻 Author
+
+Sagar
+
+---
